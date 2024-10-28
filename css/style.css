@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  font-family: "Anonymous Pro", monospace;
+      width: 100%;
+      height: 100%;
+	background: #DFDEC9;
+	    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.vvv{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	top: 150px;
+	left: 200px;
+
+	margin-right: -245px;
+}
+ul.nav1{ 
+ 
+				margin-left: 887px;
+                padding-left: 711px;
+                list-style: none;
+				font-size: 38px;	
+	            display: inline-block;
+                width: 158px;
+				height: 53px;
+				margin: 10px;
+                padding:11px;
+				padding-bottom: 15px;
+                background-color: #FFFFFF;
+				border-radius: 50px;
+				display: grid;
+
+	    align-content: center;
+    justify-content: center;
+	
+
+		}
+            .nav1 li { 
+                display: inline; 
+            }
+            ul.nav1 a {
+                display: inline-block;
+                width: 158px;
+				height: 53px;
+
+	
+                background-color: #FFFFFF;
+                
+
+                text-decoration: none;
+                color: #414D22;
+                text-align: center;
+            }
+            ul.nav1 a:hover{
+                background-color: #FF9A00;
+                color: #414D22;
+
+            }
+
+			ul.nav1 a:focus {
+   			 outline: 10px solid #80992E;
+				}
+			ul.nav1 a:active {
+				border-radius: 158px;
+                text-decoration: none;
+                color: #414D22;
+                text-align: center;
+   			}
+   
+
+
+
+            ul.nav{
+                margin-left: 10px;
+    padding-left: 10px;
+                list-style: none;
+				font-size: 51px;
+				display: grid;
+				
+ 				grid-gap: 10px;
+				align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+	grid-template-columns: 158px repeat(8, 86px);				
+			
+			grid-gap: 72px;
+				
+
+            }
+            .nav li { 
+                display: inline; 
+            }
+            ul.nav a {
+                display: inline-block;
+                width: 53px;
+				height: 48px;
+				margin: 10px;
+                padding:11px;
+				padding-bottom: 15px;
+                background-color: #FFFFFF;
+                
+				border-radius: 50px;
+                text-decoration: none;
+                color: #414D22;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #FF9A00;
+                color: #414D22;
+
+            }
+
+			ul.nav a:focus {
+   			 outline: 10px solid #80992E;
+				}
+			ul.nav a:active {
+				border-radius: 50px;
+                text-decoration: none;
+                color: #414D22;
+                text-align: center;
+   			}
+   
+
+
+.foto {
+padding: 60px 0px;
+display: flex; 
+	justify-content: flex-start;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch;
+	
+}
+.pp{
+	display: flex;
+	
+
+
+}
+.bd {
+	display: grid;
+	  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+	justify-items: start;
+	 height: 778px;
+	width: 526px;
+
+}
+
+.text{
+		display: grid;
+	
+	justify-items: start;
+	 height: 500px;
+	grid-template-columns: 670px;
+	grid-template-rows: 518px;
+}
+.ttt{
+	font-size: 38px;
+	 text-decoration: none;
+	grid-template-columns: 565px;
+	color:#FFFFFF;
+		display: grid;
+    align-content: space-around;
+    justify-content: flex-end;
+    align-items: center;
+    justify-items: center;
+	 position: relative;
+    top: -432px;
+    left: 13px;
+	padding: 30px;
+	margin: 20px;
+	  width: 558px;
+
+  height: 240px;
+ 
+}
+
+.naviki{
+	
+	padding: 120px 0px;
+display: grid;
+    position: relative;
+    top: 48px;
+    left: 76px;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+	
+}
+
+.HH{
+font-size: 64px;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #80992E;
+    display: grid;
+    align-content: space-between;
+    justify-content: start;
+    align-items: start;
+    justify-items: start;
+    position: relative;
+    top: -651px;
+    left: -257px;
+    padding: 12px 12px 12px 12px;
+   margin: 12px 12px 12px 12px;
+    width: 594px;
+    height: 354px;
+}
+.kk{
+	    display: grid;
+    align-content: space-around;
+    
+justify-content: center;
+    align-items: start;
+    justify-items: start;
+    position: relative;
+    top: -699px;
+    left: 0px;
+    padding: 30px;
+    margin: -220px;
+    width: 594px;
+    height: 278px;
+
+}
+.opisanie_nacikov{
+		background: #F8EECA;
+	border-radius: 50px;
+		margin: 120px 0px;
+
+	padding: 60px 0px;
+
+
+}
+.op{
+
+	    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+
+	
+}
+.ooo{
+	font-size: 64px;
+	  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+    text-decoration: none;
+    color: #80992E;
+    display: flex;
+	
+}
+
+.kar{
+    font-size: 40px;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #75894E;
+    display: flex;
+    gap: 70px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+	
+}
+
+            #footer{ 
+                background-image: url("img/fyt.png");
+				background-size: cover;
+				height: 485px;
+                margin-right: 10px;
+				padding: 10px 10px 10px 10px;
+				border-radius: 30px 30px 30px 30px;
+
+            }
+			
+
+::-webkit-scrollbar {
+  width: 0;
+}
+		
+.footer{
+	
+		max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background:#ECD0A1;
+	border-radius: 50px;
+}
+.container_footer{
+
+}
+
+.zagolovok_footer{
+	padding: 0px 100px 0px 0px;
+	font-weight: 900;
+	font-size: 4.6em;
+	line-height: 90px;
+	text-align: left;
+	color: #616b38;
+}
+
+.kontakt{
+	font-size: 3.3em;
+	line-height: 70px;
+	text-align: left;
+	color: #616b38;
+
+	
+}
+
+.o_kon{
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	
+}
+
+.new{
+	
+	display: flex;
+		padding: 60px 0;
+
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+
+}
+
+.des{
+		font-size: 2.3em;
+	line-height: 70px;
+		text-align: center;
+	color: #616b38;
+	
+}
+.d{
+			font-size: 2.3em;
+	line-height: 70px;
+			text-align: center;
+	color: #616b38;
+}
